@@ -83,6 +83,11 @@ window.XBOXControllers = {
           crossfade: axes[3]
         };
       }else{
+        controllerObject.buttons.left_bumper = buttons[4];
+        controllerObject.buttons.right_bumper = buttons[5];
+        controllerObject.buttons.left_trigger = buttons[6];
+        controllerObject.buttons.right_trigger = buttons[7];
+
         controllerObject.axes = {
           left_analog_x: axes[0],
           left_analog_y: axes[1],
