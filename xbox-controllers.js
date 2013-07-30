@@ -68,7 +68,10 @@ window.XBOXControllers = {
         up: buttons[12],
         right: buttons[15],
         down: buttons[13],
-        left: buttons[14]
+        left: buttons[14],
+        home: buttons[16],
+        start: buttons[9],
+        select: buttons[8]
       };
 
       if(type == 'turntable'){        
